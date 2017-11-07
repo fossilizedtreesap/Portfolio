@@ -1,0 +1,25 @@
+body {
+    background: rgb(240,144,128)
+}
+
+a {
+    text-decoration: none;    
+}
+
+#gallery{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+#title{
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+color: rgb(17,79,90)     
+}
+
+nav a, nav a:visited {
+color: rgb(227,80,31);
+}
