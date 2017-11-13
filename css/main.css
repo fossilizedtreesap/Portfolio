@@ -48,7 +48,11 @@ nav a, nav a:visited {
     color: rgb(227,80,31);
     }
 
-nav a.selected, a:hover{
+nav a.selected {
+    color: rgb(60, 160, 135);
+    }
+
+ a:hover{
     color: rgb(60, 160, 135);
     }
 
