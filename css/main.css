@@ -218,7 +218,7 @@ button {
     transition: .5s;
     display: inline-block;
     cursor: pointer;
-    width:30%;
+    width:90%;
     color:rgb(234,217,172);
     font-family:'Acme', sans-serif;
 }
