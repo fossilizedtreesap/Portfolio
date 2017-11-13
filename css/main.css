@@ -222,7 +222,7 @@ button {
     transition: .5s;
     display: inline-block;
     cursor: pointer;
-    width:90%;
+    width:70%;
     color:rgb(234,217,172);
     font-family:'Acme', sans-serif;
 }
