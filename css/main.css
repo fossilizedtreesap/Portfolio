@@ -2,7 +2,7 @@
 body {
     background-color: rgb(240,144,128);
     color: rgb(234,217,172);
-    padding-top:25px;
+    padding-top:20px;
     margin-left:10px;
     margin-right:10px;
     font-family:'montserrat', sans-serif;    
@@ -132,7 +132,9 @@ footer{
 .me{
     margin: 1em 2em 1em 2em;    
     }
-
+.me1{
+    margin-top:15%;
+}
 /*********** Contact Page *********/
 
 .box{
