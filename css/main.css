@@ -48,7 +48,7 @@ nav a, nav a:visited {
     color: rgb(227,80,31);
     }
 
-nav a.selected, a:hover{
+nav a:hover, nav a.selected {
     color: rgb(60, 160, 135);
     }
 
@@ -218,7 +218,7 @@ button {
     transition: .5s;
     display: inline-block;
     cursor: pointer;
-    width:30%;
+    width:70%;
     color:rgb(234,217,172);
     font-family:'Acme', sans-serif;
 }
@@ -270,3 +270,6 @@ label.error {
     -moz-border-radius:6px;
     border-radius:6px;
 }
+
+
+
