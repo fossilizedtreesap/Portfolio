@@ -44,11 +44,21 @@ nav a{
     padding: 15px 10px;
     }
 
+nav a:hover{
+    color: rgb(60, 160, 135);
+    }
+
 nav a, nav a:visited {
     color: rgb(227,80,31);
     }
 
+
 nav a:hover, nav a.selected {
+      color: rgb(60, 160, 135);
+    }
+
+
+nav a.selected {
     color: rgb(60, 160, 135);
     }
 
@@ -271,5 +281,6 @@ label.error {
     border-radius:6px;
 }
 
-
-
+.carousel .item {
+height: 300px;
+}
