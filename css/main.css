@@ -120,15 +120,17 @@ footer{
     }
 /*********** About Page ***********/
 
-.profile{
+  .profile{
     display:block;
     max-width: 150px;
     margin: 0 auto 30px;
     border-radius: 100%;
     }
 
+
+
 .me{
-    margin: 1em 1em 1em 1em;    
+    margin: 1em 2em 1em 2em;    
     }
 
 /*********** Contact Page *********/
@@ -251,36 +253,15 @@ label.error {
     border-radius:6px;
 }
 
-/* media queries */
-@media (max-width: 700px) {
-  label.error {
-    width: 90%;
-  }
-  input, textarea {
-    width: 90%;
-  }
-  button {
-    width:90%;
-  }
-  body {
-  padding-top:10px;
-  }  
-}
-.Thanks {
-    font-family:'montserrat', sans-serif;
-    font-size:1.1em;
-    display:none;
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color: rgb(163, 196, 165);
-    width: 80%;
-    margin:auto;
-    color: rgb(17,79,90);
-    -webkit-border-radius:6px;
-    -moz-border-radius:6px;
-    border-radius:6px;
-}
 
-.carousel .item {
-height: 300px;
-}
+
+
+
+
+
+
+
+
+
+
+
