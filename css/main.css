@@ -9,15 +9,15 @@ body {
     }
 
 header{
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
     padding: 5 0 0 0;
     width: 100%;
     }
 
 #title{
     text-align: center;
-    margin: 0;
-    }
+    font-size: 2em;
+       }
 
 a {
     text-decoration: none;    
@@ -94,30 +94,14 @@ footer{
     }
 
 /************ Work Page ***********/
+.carousel-inner img {
+  margin: auto;
+ }
+.carousel{
+    
+    margin-top: 200px;
+}
 
-#gallery {
-    max-width: 940px;
-    margin: 0 auto;
-    }
-
-#work {
-    margin:0;
-    padding: 0;
-    list-style: none;
-    }
-
-#work li{
-    float: left;
-    width: 45%;
-    margin: 2.5%;
-    }
-
-#work li a p{
-    margin:0;
-    padding: 5%;
-    font-size: 0.75em;
-    color: rgb(234,217,172);
-    }
 /*********** About Page ***********/
 
   .profile{
@@ -129,16 +113,14 @@ footer{
 
 
 
-.me{
-    margin: 1em 2em 1em 2em;    
+.me, .me1{
+    margin: 2em 1em 2em 1em;    
     }
-.me1{
-    margin-top:15%;
-}
+
 /*********** Contact Page *********/
 
 .box{
-    max-width:300px;
+    max-width:450px;
     margin:0 auto;
     text-align:center;
     -webkit-border-radius:6px;

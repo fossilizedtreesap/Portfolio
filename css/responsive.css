@@ -23,6 +23,7 @@
     margin-right: 5%;
     text-align: right;
     width: 45%;
+     font-size:2em;
 }
 
 #title{
@@ -53,8 +54,18 @@ nav li{
     margin-top: 10%;
 }
 
+.me, .me1{
+    margin: 2em 7em 2em 7em;    
+    }
+.me1{
+    margin-top: 15%;
+}
 
-
+.social-icon{
+    width:60px;
+    height:60px;
+    margin: 0 10px;
+    }
 
 /* MQ for Contact Form*/
 @media (max-width: 800px) {
