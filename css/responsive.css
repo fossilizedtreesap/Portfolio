@@ -12,12 +12,10 @@
         margin: 0 10px;}
     
     .me, .me1{
-    margin: 1em 1em 1em 1em;}
-} 
+        margin: 1em 1em 1em 1em;} 
 
-.carousel{
-    
-    margin-top: 40px;
+    .carousel-inner{
+        margin-top: 0px;}
 }
 
 @media screen and (min-width:660px){
@@ -59,8 +57,9 @@
     .me, .me1{
         margin: 2em 5em 2em 2em;
         font-size: 1em}
+    
     .me1{
-    margin-top: 15%;}
+        margin-top: 15%;}
 
     .social-icon{
         width:60px;
