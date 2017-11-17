@@ -65,6 +65,10 @@
         width:60px;
         height:60px;
         margin: 0 10px;}
+  
+    .carousel{
+    margin-top: 75px;
+}
 
 /* MQ for Contact Form*/
 @media (max-width: 800px) {
