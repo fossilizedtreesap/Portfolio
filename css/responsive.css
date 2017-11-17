@@ -1,98 +1,86 @@
-@media (min-width:480px){
+@media screen and (min-width:480px){
    .profile{
-    Float: left;
+       Float: left;
        clear:left;
-    margin: 0 40px 40px;
-     display:block;
-    max-width: 175px;
-
-     
-}
+       margin: 0 40px 40px;
+       display:block;
+       max-width: 175px;}
     
+    .social-icon{
+        width:20px;
+        height:20px;
+        margin: 0 10px;}
+    
+    .me, .me1{
+    margin: 1em 1em 1em 1em;}
 } 
 
-
-@media (min-width:660px){
-
- nav{
+.carousel{
     
-    Background: none;
-    float: right;
-    clear: right;
-    font-size:1.125em;
-    margin-right: 5%;
-    text-align: right;
-    width: 45%;
-     font-size:2em;
+    margin-top: 40px;
 }
 
-#title{
-    float: left;
-   clear:left;
-    margin-left: 5%;
-    text-align: left;
-    width: 45%;
-    font-size: 1.50em;
+@media screen and (min-width:660px){
+    nav{
+        Background: none;
+        float: right;
+        clear: right;
+        font-size:1.125em;
+        margin-right: 5%;
+        text-align: right;
+        width: 45%;
+        font-size:2em;}
+
+    #title{
+        float: left;
+        clear:left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+        font-size: 1.50em;}   
     
-}   
+    h1{
+        font-size: 2.5em;
+        margin-bottom: 20px;}
+
+    #info{
+        margin-top:15%;}
     
-h1{
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
+    nav li{
+        margin-top: 10%;}
     
-   }
-
-#info{
-    margin-top:15%;
-}
-
-
-
-nav li{
-    margin-top: 10%;
-}
-
-.me, .me1{
-    margin: 2em 7em 2em 7em;    
+    .profile{
+        display:block;
+        max-width: 150px;
+        margin: 0 auto 200px;
+        border-radius: 100%;
     }
-.me1{
-    margin-top: 15%;
-}
 
-.social-icon{
-    width:60px;
-    height:60px;
-    margin: 0 10px;
-    }
+    .me, .me1{
+        margin: 2em 5em 2em 2em;
+        font-size: 1em}
+    .me1{
+    margin-top: 15%;}
+
+    .social-icon{
+        width:60px;
+        height:60px;
+        margin: 0 10px;}
 
 /* MQ for Contact Form*/
 @media (max-width: 800px) {
-  label.error {
-    width: 90%;
-  }
-  input, textarea {
-    width: 90%;
-  }
-  button {
-    width:90%;
-  }
-  body {
-  padding-top:10px;
-  }  
+    label.error {
+        width: 90%;}
+  
+    input, textarea {
+        width: 90%;}
+  
+    button {
+        width:90%;}
+  
+    body {
+        padding-top:10px;}  
 }
-.Thanks {
-    font-family:'montserrat', sans-serif;
-    font-size:1.1em;
-    display:none;
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color: rgb(163, 196, 165);
-    width: 80%;
-    margin:auto;
-    color: rgb(17,79,90);
-    -webkit-border-radius:6px;
-    -moz-border-radius:6px;
-    border-radius:6px;
-}
+
+
+
